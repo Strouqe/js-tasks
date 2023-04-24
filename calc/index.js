@@ -6,7 +6,6 @@ function calc(operator) {
   let num2 = document.getElementById('num-2').value;
 
   ans = eval(num1 + operator + num2);
-  console.log(ans);
   document.getElementById('ans').innerHTML = ans;
 
 }
@@ -23,6 +22,5 @@ function natLog() {
   let ans
   let num1 = document.getElementById('num-1').value;
   ans = Math.log(num1);
-  console.log(ans);
   document.getElementById('ans').innerHTML = ans;
 }
